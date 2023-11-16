@@ -86,10 +86,10 @@ nav li{
 .pie .grupo-2 small{
     font-size: 15px;
 }
-@media screen and (max-width:800px)(min-width:400px){
+@media screen and (max-width:800px){
     .pie .grupo-1{
         width: 100%;
-        grid-template-columns:repeat(3, 1fr) ;
+        grid-template-columns:repeat(3,1fr) ;
         grid-gap: 50px;
         padding: 45px 0px;}
 }
