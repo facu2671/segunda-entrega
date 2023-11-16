@@ -1,0 +1,206 @@
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+    
+nav{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav li{
+    margin: 30px 20px;
+    font-size: 20px;
+}
+
+.cajita{
+    align-items: center;
+}
+.img1{
+    width: 50%;
+    align-items: center;
+}
+
+.pie{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+
+
+.pie .grupo-1{
+   align-items: center;
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    
+
+
+}
+.pie .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pie .grupo-1 .box figure img{
+    width: 200px;
+}
+
+.wsp{
+    height: 60px;
+}
+.ig{
+    height: 55px;
+}
+.facebook{
+    height: 30px;
+}
+.pie .grupo-1 .box h2{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie .grupo-1 .box h2 p{
+    margin-bottom: 10px;
+    
+}
+.pie .grupo-1 .red-social a{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    
+}
+.pie .grupo-2{
+    padding: 15px 10px;
+    text-align: center;
+}
+.pie .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie .grupo-1{
+        width: 100%;
+        grid-template-columns:repeat(1, 1fr) ;
+        grid-gap: 30px;
+        padding: 35px 0px;}
+}
+
+
+.maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    text-align: center;
+}
+
+.form-control{
+    width: 1000px;
+}
+label{
+    
+    color: #333;
+    font-weight: bold;
+}
+.form{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+button{
+    margin-top: 10px;
+}
+
+.link{
+    text-decoration: none;
+   display: block;
+   background-color: black;
+   color: #ffffff;
+   padding: 10px;
+   margin-bottom:30px ;
+   border-radius: 10px;
+
+   
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:50px 0px ;
+    
+}
+
+
+
+.contenedor-padre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    cursor: default;
+    
+    
+}
+
+.card{
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease;
+    border-radius: 10px;
+
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+
+}
+
+.contenedor-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.info{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+    justify-content: space-between;
+}
+
+.vidio{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 50px;
+    justify-content: space-between;
+}
+
